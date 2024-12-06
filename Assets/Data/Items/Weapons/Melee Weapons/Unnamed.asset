@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce89a74b3f5eb32419b477c1a74a507b, type: 3}
+  m_Name: Unnamed
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemIcon: {fileID: 0}
+  itemDescription: 
+  itemID: 0
+  weaponAnimator: {fileID: 22100000, guid: d8fc20c7110c9014dbd6c1433dd98536, type: 2}
+  weaponModelType: 0
+  weaponModel: {fileID: 7532691179279653235, guid: 07ba52de8da83394c9bd537581fae006, type: 3}
+  weaponClass: 3
+  strengthREQ: 0
+  dexREQ: 0
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 8
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightningDamage: 0
+  poiseDamage: 10
+  light_Attack_01_Modifier: 1
+  light_Attack_02_Modifier: 1.2
+  heavy_Attack_01_Modifier: 1.4
+  heavy_Attack_02_Modifier: 1.6
+  charge_Attack_01_Modifier: 2
+  charge_Attack_02_Modifier: 2.2
+  running_Attack_01_Modifier: 1.1
+  rolling_Attack_01_Modifier: 1.1
+  backstep_Attack_01_Modifier: 1.1
+  baseStaminaCost: 5
+  lightAttackStaminaCostMultiplier: 1
+  heavyAttackStaminaCostMultiplier: 1.3
+  chargedAttackStaminaCostMultiplier: 1.5
+  runningAttackStaminaCostMultiplier: 1.1
+  rollingAttackStaminaCostMultiplier: 1.1
+  backstepAttackStaminaCostMultiplier: 1.1
+  physicalBaseDamageAbsorption: 50
+  magicBaseDamageAbsorption: 50
+  fireBaseDamageAbsorption: 50
+  holyBaseDamageAbsorption: 50
+  lightningBaseDamageAbsorption: 50
+  stability: 50
+  oh_RB_Action: {fileID: 0}
+  oh_RT_Action: {fileID: 0}
+  oh_LB_Action: {fileID: 11400000, guid: 698723038dd37a84988e8ae4b2064f1a, type: 2}
+  whooshes: []
+  blocking:
+  - {fileID: 8300000, guid: e5ecc98ff40556543b77c8c2aa090822, type: 3}
